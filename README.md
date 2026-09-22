@@ -26,7 +26,3 @@ Markdown em arquivos README.md.
 
 Por fim, testaremos nossas páginas utilizando GitHub Pages.
 
-## Unidades
-
-- [Unidade 01](./unidade01)
-- [Unidade 02](./unidade02)
