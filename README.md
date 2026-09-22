@@ -1,6 +1,3 @@
-# diweb-2026-turma-j-gabrielly-dantas
-Este repositório foi feito para projetos de diweb 1 em html e CSS
-
 # DIWEB-2026-02
 
 Projetos do curso de DIWEB-I, do segundo semestre de 2026,
