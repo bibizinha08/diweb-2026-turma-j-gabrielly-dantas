@@ -1,0 +1,41 @@
+body {
+    font-size: 22px;
+    font-family: serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: darkgray;
+    color: white;
+}
+
+div {
+    margin: 5px auto;
+    width: 80%;
+    padding: 20px;
+}
+
+.box01 {
+    background-color: darkgray;
+    color: white;
+}
+
+.box02 {
+    background-color: darkorange;
+    color: white;
+}
+
+span {
+    font-size: 32px;
+    color: crimson;
+    font-weight: 600;
+}
+
+img {
+    width: 80px;
+    margin-right: 50px;
+}
+
+p {
+    margin-top: 50px;
+}
