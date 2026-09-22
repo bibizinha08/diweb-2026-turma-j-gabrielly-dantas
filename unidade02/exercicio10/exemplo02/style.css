@@ -1,0 +1,27 @@
+body {
+    background-color: royalblue;
+}
+span {
+    color: crimson;
+}
+p {
+    background-color: cadetblue;
+    color: white;
+    /* definindo margens. Propriedade a propriedade (topo, direita, baixo e esquerda). */
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    /*
+    Definindo margens em uma propriedade (.
+    margin: 20px 50px 20px 50px;
+    */
+    /*
+    Definindo margens em duas propriedades propriedade (topo/baixo e direita/esquerda).
+    margin: 20px 50px;
+    */
+}
+.box {
+    width: 50%;
+    margin: 50px auto;
+}
