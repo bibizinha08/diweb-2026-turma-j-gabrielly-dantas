@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Outros controles de formulários</h1>
+
+        <input type="hidden" name="id" value="123">
+
+        <h2>Tipo Radio</h2>
+
+        <input type="radio" id="vermelho" name="cor" value="vermelho">
+        <label for="vermelho">Vermelho</label><br>
+
+        <input type="radio" id="azul" name="cor" value="azul" checked>
+        <label for="azul">Azul</label><br>
+
+        <input type="radio" id="verde" name="cor" value="verde">
+        <label for="verde">Verde</label><br>
+
+        <hr>
+
+        <h2>Tipo Checkbox</h2>
+        <p>Selecione suas tecnologias favoritas:</p>
+
+        <!-- o atributo name deve ser o mesmo para o grupo -->
+
+        <input type="checkbox" id="html" name="tecnologia" value="html">
+        <label for="html">HTML</label><br>
+
+        <input type="checkbox" id="css" name="tecnologia" value="css" checked>
+        <label for="css">CSS (Pré-selecionado)</label><br>
+
+        <input type="checkbox" id="js" name="tecnologia" value="js">
+        <label for="js">JavaScript</label><br>
+
+        <hr>
+
+        <input type="submit" value="Enviar" class="button">
+        <input type="reset" value="Limpar" class="button">
+    </form>
+</body>
+</html>
