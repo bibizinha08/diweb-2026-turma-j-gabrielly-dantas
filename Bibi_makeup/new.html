@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibi Makeup | Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Bibi <span>Makeup.</span></div>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="produto.html">Produtos</a>
+            <a href="login.html">Entrar</a>
+            <a href="new.html">Cadastrar</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="area-formulario">
+
+            <form class="formulario" action="#" method="get">
+
+                <h1>Crie sua conta!</h1>
+
+                <p>Faça parte do mundo Bibi Makeup.</p>
+
+                <label for="nome">Nome completo:</label>
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Digite seu nome"
+                    required
+                >
+
+                <label for="email">E-mail:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Digite seu e-mail"
+                    required
+                >
+
+                <label for="telefone">Telefone:</label>
+                <input
+                    type="tel"
+                    id="telefone"
+                    name="telefone"
+                    placeholder="(00) 00000-0000"
+                    required
+                >
+
+                <label for="senha">Crie uma senha:</label>
+                <input
+                    type="password"
+                    id="senha"
+                    name="senha"
+                    placeholder="Digite uma senha"
+                    required
+                    minlength="6"
+                >
+
+                <label for="confirmar">Confirme sua senha:</label>
+                <input
+                    type="password"
+                    id="confirmar"
+                    name="confirmar"
+                    placeholder="Digite novamente sua senha"
+                    required
+                    minlength="6"
+                >
+
+                <button type="submit" class="botao">Criar minha conta</button>
+
+                <div class="link-form">
+                    <p>Já possui uma conta?</p>
+                    <a href="login.html">Faça seu login!</a>
+                </div>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p><strong>Bibi Makeup</strong> - Sua beleza, seu jeito!</p>
+        <p>© 2026 Bibi Makeup. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
